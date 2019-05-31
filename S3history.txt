@@ -1,0 +1,112 @@
+    1  fdisk -l
+    2  df -hT
+    3  mkfs-xfs /dev/xvdf
+    4  history
+    5  mkfs-xfs /dev/xvdf
+    6  mkfs.xfs /dev/xvdf
+    7  mkfs.xfs -f /dev/xvdf
+    8  mkdir /mnt/vol
+    9  mount /dev/xvdf /mnt/vol
+   10  df -hT
+   11  cd /mnt/vol
+   12  ls
+   13  mkdir adhoc{1..10}
+   14  ls
+   15  touch jk{1..15}
+   16  ls
+   17  exit
+   18  ls
+   19  cd /mnt/jk2
+   20  ls
+   21  cd  
+   22  ls
+   23  cd /mnt/jk2
+   24  ls
+   25  clear
+   26  mkdir jk
+   27  ls
+   28  fdisk -l
+   29  mkdir /mnt/jk2
+   30  mount /dev/xvdf /mnt/jk2
+   31  cd /mnt/jk2
+   32  ls
+   33  python3
+   34  cd /var/www/html
+   35  cd /etc/yum.repos.d
+   36  mkdir nginx.repos
+   37  vim nginx.repos
+   38  yum install vim
+   39  vim nginx.repos
+   40  clear
+   41  vim nginx.repos
+   42  rmdir nginx.repos/
+   43  vim nginx.repos
+   44  cd  
+   45  yum install nginx
+   46  vim nginx.repos
+   47  cd /etc/yum.repos.d/
+   48  vim nginx.repos 
+   49  yum install nginx
+   50  iptable -F
+   51  iptables -F
+   52  getenforce
+   53  yum install nginx
+   54  yum install Nginx
+   55  exit
+   56  yum install nginx
+   57  cd /etc/yum.repos.d
+   58  mkdir nginx
+   59  cd /etc/yum.repos.d
+   60  rmdir nginx
+   61  cd /etc/yum.repos.d
+   62  ls
+   63  rm nginx.repos 
+   64  rm -r nginx.repos 
+   65  vim nginx.repos 
+   66  vim nginx.repo
+   67  cat nginx.repo
+   68  yum install nginx
+   69  systemctl enable nginx
+   70  systemctl start  nginx
+   71  systemctl status  nginx
+   72  systemctl enable nginx
+   73  firewall-cmd --permanent --zone=public --add-service=http
+   74  clear
+   75  ss -tulpn
+   76  clear
+   77  rpm -ql nginx
+   78  cd /usr/share/nginx/html
+   79  vim website.html
+   80  clear
+   81  ifconfig
+   82  curl -I 13.235.74.168
+   83  clear
+   84  ls
+   85  vim website.html 
+   86  rpm -ql nginx
+   87  cd /usr/share/nginx/html
+   88  ls
+   89  vim website.html 
+   90  touch /etc/passwd-s3fs
+   91  vim /etc/passwd-s3fs
+   92  sudo chmod 640 /etc/passwd-s3fs
+   93  mkdir /mys3bucket
+   94  s3fs storagejk -o use_cache=/tmp -o allow_other -o uid=1001 -o mp_umask=002 -o multireq_max=5 /mys3bucket
+   95  1
+   96  2
+   97  which s3fs
+   98  /usr/local/bin/s3fs
+   99  cd /bin/s3fs
+  100  vim /etc/rc.local
+  101  df -Th
+  102  df -Th /mys3bucket
+  103  2
+  104  3
+  105  4
+  106   cd /mys3bucket
+  107  echo "this is a test file to check s3fs" >> test.txt
+  108  ls
+  109  cd  
+  110  vim keys.txt
+  111  history
+  112  history >S3history.txt
