@@ -1,0 +1,332 @@
+    1  fdisk -l
+    2  df -hT
+    3  mkfs-xfs /dev/xvdf
+    4  history
+    5  mkfs-xfs /dev/xvdf
+    6  mkfs.xfs /dev/xvdf
+    7  mkfs.xfs -f /dev/xvdf
+    8  mkdir /mnt/vol
+    9  mount /dev/xvdf /mnt/vol
+   10  df -hT
+   11  cd /mnt/vol
+   12  ls
+   13  mkdir adhoc{1..10}
+   14  ls
+   15  touch jk{1..15}
+   16  ls
+   17  exit
+   18  ls
+   19  cd /mnt/jk2
+   20  ls
+   21  cd  
+   22  ls
+   23  cd /mnt/jk2
+   24  ls
+   25  clear
+   26  mkdir jk
+   27  ls
+   28  fdisk -l
+   29  mkdir /mnt/jk2
+   30  mount /dev/xvdf /mnt/jk2
+   31  cd /mnt/jk2
+   32  ls
+   33  python3
+   34  cd /var/www/html
+   35  cd /etc/yum.repos.d
+   36  mkdir nginx.repos
+   37  vim nginx.repos
+   38  yum install vim
+   39  vim nginx.repos
+   40  clear
+   41  vim nginx.repos
+   42  rmdir nginx.repos/
+   43  vim nginx.repos
+   44  cd  
+   45  yum install nginx
+   46  vim nginx.repos
+   47  cd /etc/yum.repos.d/
+   48  vim nginx.repos 
+   49  yum install nginx
+   50  iptable -F
+   51  iptables -F
+   52  getenforce
+   53  yum install nginx
+   54  yum install Nginx
+   55  exit
+   56  yum install nginx
+   57  cd /etc/yum.repos.d
+   58  mkdir nginx
+   59  cd /etc/yum.repos.d
+   60  rmdir nginx
+   61  cd /etc/yum.repos.d
+   62  ls
+   63  rm nginx.repos 
+   64  rm -r nginx.repos 
+   65  vim nginx.repos 
+   66  vim nginx.repo
+   67  cat nginx.repo
+   68  yum install nginx
+   69  systemctl enable nginx
+   70  systemctl start  nginx
+   71  systemctl status  nginx
+   72  systemctl enable nginx
+   73  firewall-cmd --permanent --zone=public --add-service=http
+   74  clear
+   75  ss -tulpn
+   76  clear
+   77  rpm -ql nginx
+   78  cd /usr/share/nginx/html
+   79  vim website.html
+   80  clear
+   81  ifconfig
+   82  curl -I 13.235.74.168
+   83  clear
+   84  ls
+   85  vim website.html 
+   86  rpm -ql nginx
+   87  cd /usr/share/nginx/html
+   88  ls
+   89  vim website.html 
+   90  ls
+   91  clone https://github.com/kamaljahangir/Hadoop_Setup
+   92  git clone https://github.com/kamaljahangir/Hadoop_Setup
+   93  git clone https://github.com/kamaljahangir/aws_commands
+   94  ls
+   95  mv S3history.txt keys.txt aws_commands
+   96  ls
+   97  cd aws_commands
+   98  git add .
+   99  git commit -m "AWS S3 commands"
+  100  git push
+  101  clear
+  102  cd  
+  103  ls
+  104  touch /etc/passwd-s3fs
+  105  vim /etc/passwd-s3fs
+  106  sudo chmod 640 /etc/passwd-s3fs
+  107  mkdir /mys3bucket
+  108  s3fs storagejk -o use_cache=/tmp -o allow_other -o uid=1001 -o mp_umask=002 -o multireq_max=5 /mys3bucket
+  109  1
+  110  2
+  111  which s3fs
+  112  /usr/local/bin/s3fs
+  113  cd /bin/s3fs
+  114  vim /etc/rc.local
+  115  df -Th
+  116  df -Th /mys3bucket
+  117  2
+  118  3
+  119  4
+  120   cd /mys3bucket
+  121  echo "this is a test file to check s3fs" >> test.txt
+  122  ls
+  123  cd  
+  124  vim keys.txt
+  125  history
+  126  history >S3history.txt
+  127  ls
+  128  vim keys.txt
+  129  1
+  130  sudo yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
+  131  clear
+  132  git clone https://github.com/s3fs-fuse/s3fs-fuse.git
+  133  cd s3fs-fuse
+  134  ./autogen.sh
+  135  ./configure --prefix=/usr --with-openssl
+  136  make
+  137  sudo make install
+  138  which s3fs
+  139  ls
+  140  clear
+  141  ls
+  142  yum install httpd
+  143  systemctl start httpd
+  144  cd /var/www/html/
+  145  ls
+  146  yum install aws
+  147  cd  
+  148  yum install aws
+  149  exit
+  150  python
+  151  python3
+  152  python
+  153  yum update python
+  154  python
+  155  yum install python3.6
+  156  wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
+  157  yum install wget
+  158  wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
+  159  ls
+  160  tar -xvzf Python-3.6.8.tgz
+  161  clear
+  162  ls
+  163  cd  Python-3.6.8 
+  164  ./configure
+  165  make
+  166  python -v
+  167  make install
+  168  which python
+  169  cd  
+  170  which python3
+  171  python3 -v
+  172  ls
+  173  cd /usr/local/bin/
+  174  ls
+  175  reboot
+  176  which python3
+  177  ls
+  178  cd /usr/local/bin/python3
+  179  cp  Python-3.6.8  /usr/local/bin/python3
+  180  cp  /root/Python-3.6.8  /usr/local/bin/python3
+  181  cp  /root/Python-3.6.8  /usr/local/bin/
+  182  ls -i
+  183  ls -l
+  184  python3
+  185  pip3 install awscli boto3
+  186  pip install awscli boto3
+  187  yum install pip
+  188  exit
+  189  pip3 install awscli
+  190   aws configure
+  191  pip install awscli --upgrade
+  192  pip3 install awscli --upgrade
+  193  ls
+  194  ls /usr/local
+  195  curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+  196  ls
+  197  unzip awscli-bundle.zip
+  198  ls
+  199  sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+  200  aws --version
+  201  /usr/local/bin/aws --version
+  202  aws configure
+  203  clear
+  204  aws --version
+  205  exit
+  206  ls
+  207  yum search python3
+  208  yum search python
+  209  clear
+  210  ls
+  211  yum install python3*
+  212  yum install Python-3.6.8* 
+  213  make altinstall
+  214  cd Python-3.6.8
+  215  ls
+  216  yum install gcc
+  217  yum install openssl-devel
+  218  ./configure --prefix=/opt/python3
+  219  make
+  220  make install
+  221  pip
+  222  pip2
+  223  clear
+  224  ln -s /opt/python3/bin/python3 /usr/bin/python3
+  225  ls
+  226  python3 -version
+  227  python3
+  228  cd  
+  229  python3
+  230  pip3
+  231  yum install pip3
+  232  ls
+  233  cd  Python-3.6.8 
+  234  curl -O https://bootstrap.pypa.io/get-pip.py
+  235  python3 get-pip.py
+  236  cd  
+  237  python3
+  238  pip3
+  239  pip3 install awscli boto3
+  240  pip install awscli boto3
+  241  ln -s /opt/python3/bin/pip3 /usr/bin/pip3
+  242  pip3 install awscli boto3
+  243  aws ec2 help
+  244  ls
+  245  ln -s /opt/python3/bin/awscli /usr/bin/awscli
+  246  aws ec2 help
+  247  subscription-manager repos --enable rhel-7-server-optional-rpms   --enable rhel-server-rhscl-7-rpms
+  248   yum -y install @development
+  249  yum search python3
+  250  clear
+  251  yum upgrade python3
+  252  type -a python3
+  253  pip3 -v
+  254  yum install epel-release
+  255  clear
+  256  aws help
+  257  ls
+  258  cd /usr/local/bin
+  259  aws help
+  260  cd aws
+  261  cd  
+  262  cd /usr/local/bin/aws
+  263  cd /usr/local
+  264  ls
+  265  cd bin
+  266  ls
+  267  aws help
+  268  cd 
+  269  /usr/local/bin/aws --version
+  270  /usr/local/bin/aws help
+  271  /usr/local/bin/aws configure
+  272  aws ec2 help
+  273  /usr/local/bin/aws ec2 help
+  274  /usr/local/bin/aws ec2 describe-keys-pairs >mykeys.txt
+  275  ls
+  276  cat mykeys.txt
+  277  /usr/local/bin/aws ec2 describe-key-pairs >mykeys.txt
+  278  ls
+  279  cat mykeys.txt
+  280  exit
+  281  aws help
+  282  history
+  283  echo $PATH | grep my/symlink/path
+  284  export PATH=my/symlink/path:$PATH
+  285  echo $PATH | grep my/symlink/path
+  286  aws help
+  287  source /.bashrc
+  288  source ~/.bashrc
+  289  aws help
+  290  aws configure
+  291  aws ec2 help
+  292  aws ec2 describe-key-pairs >mumbai.keys
+  293  aws ec2 describe-key-pairs --output table
+  294  ./awscli-bundle/install -b my/symlink/path/aws
+  295  echo $PATH | grep my/symlink/path
+  296  export PATH=my/symlink/path:$PATH
+  297  echo $PATH | grep my/symlink/path
+  298  ls
+  299  /usr/local/bin/aws help
+  300  /usr/local/bin/aws configure
+  301  aws help
+  302  /usr/local/bin/aws ec2 describe-key-pairs >mumbai.keys
+  303  /usr/local/bin/aws ec2 describe-key-pairs
+  304  /usr/local/bin/aws ec2 describe-key-pairs --output text
+  305  /usr/local/bin/aws --version
+  306  aws help
+  307  ./awscli-bundle/install -b my/symlink/path/aws
+  308  export PATH=my/symlink/path:$PATH
+  309  source ~/.bashrc_profile
+  310  source /.bash_profile
+  311  aws help
+  312  ls -a ~
+  313  source ~/.bash_profile
+  314  which aws
+  315  aws help
+  316  clear
+  317  history
+  318  clear
+  319  aws configure
+  320  aws ec2 describe-key-pairs >mumbai.keys
+  321  aws ec2-user@35.154.167.98  describe-key-pairs >mumbai.keys
+  322  clear
+  323  aws ec2  describe-key-pairs >mumbai.keys
+  324  ls
+  325  cat munbai.keys
+  326  cat mumbai.keys
+  327  aws ec2  describe-key-pairs --output text
+  328  ls
+  329  aws ec2 describe-instances-status
+  330  aws ec2 describe-instance-status
+  331  history
+  332  history >awsclihistory.txt
